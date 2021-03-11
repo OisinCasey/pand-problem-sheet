@@ -14,5 +14,6 @@ import datetime
 # check if today is a weekday less than 5, i.e. saturday
 if (datetime.datetime.today().weekday() < 5):
     print("Yes, unfortunately today is a weekday.")
+# otherwise it must be the weekend
 else:
     print("It is the weekend, yay!")
